@@ -3,6 +3,8 @@
         Title of Column
     </div>
     <div>
-      <app-element></app-element>
+        
+            <app-element *ngFor="let hero of Allelements" [hero1]="hero"></app-element>
+        
     </div>
 </div>
